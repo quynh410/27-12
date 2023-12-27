@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+       text-align: center;
+       width:50%;
+       margin: 0 auto;
+   }
+   table,th,td{
+       border: 1px solid black;
+       border-collapse:collapse;
+   }
+   h1{
+       text-align: center;
+   }
+</style>
+<body>
+    <form><h1>Car Purchase Form</h1>
+        <center>
+           <div>
+            <label for="name">Name:</label>
+            <input type="name" name="name">
+           </div>
+           <br>
+           <div>
+            <label for="email">Email:</label>
+           <input type="email">
+           </div>
+           <br>
+           <div>
+            <label for="phone">Phone:</label>
+            <input type="phone">
+           </div>
+           <br>
+           <div>
+            <label for="modelCar" style="margin-left: -60px;">Choose a car</label>
+            <select name="modelCar" id="modelCar">
+                <option value="moder1">Moder 1</option>
+                <option value="moder2">Moder 2</option>
+                <option value="moder3">Moder 3</option>
+                <option value="moder4">Moder 4</option>
+                <option value="moder6">Moder 6</option>
+            </select>
+           </div>
+           <br>
+           <div>
+            <label for="color" style="margin-left: -60px;">Choose a color</label>
+            <select name="color" id="color">
+                <option value="color1">Red</option>
+                <option value="color2">Pink</option>
+                <option value="color3">Black</option>
+                <option value="color4">Yellow</option>
+                <option value="color5">White</option>
+                <option value="color6">Gray</option>
+            </select>
+           </div>
+           <br>
+           <div>
+            <label for="quantity" style="margin-left: 10px;">Quantity</label>
+            <input type="quantity" name="quantity" min="1", max="10">
+           </div>
+           <br>
+           <div>
+            <label for="date" style="margin-left: -5px;">Delivery Date</label>
+            <input name="date" type="date">
+           </div>
+           <br>
+           <div>
+            <input style="margin-left: -22%;" type="submit" value="Submit">
+           </div>
+        </center>
+    </form>
+    
+</body>
+</html>
